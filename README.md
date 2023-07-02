@@ -15,21 +15,6 @@ Non-Infected: This category includes 1230 CT scans of patients who are not infec
 
 Please download the dataset from the provided link and ensure that the CT scan images are organized in the appropriate folder structure for the code to work correctly.
 
-# Code Evaluation
-The code has been evaluated using the provided CT scan dataset. The evaluation results are as follows:
-
-**Accuracy**: 91.00%
-
-**Precision**: 89.33%
-
-**Recall**: 93.00%
-
-**F1-Score**: 91.13%
-
-These metrics indicate the performance of the classification model in identifying COVID-19 infection based on CT scan images. The accuracy represents the overall correctness of the predictions, while precision measures the proportion of true positive predictions out of all positive predictions. Recall measures the proportion of true positive predictions out of all actual positive samples. The F1-Score is a balanced measure of precision and recall.
-
-The high accuracy, precision, recall, and F1-Score obtained from the evaluation indicate that the CT scan image classification model performs well in identifying patients infected by SARS-CoV-2 using CT scan images.
-
 # Repository Structure
 The repository contains the following files:
 
@@ -68,6 +53,22 @@ Considering additional preprocessing and feature extraction techniques.
 Evaluating the model on external datasets to assess its generalization capabilities.
 
 Implementing a user-friendly interface or deploying the model as a web application for real-world usage.
+
+# Code Evaluation
+The code has been evaluated using the provided CT scan dataset. The evaluation results are as follows:
+
+**Accuracy**: 91.00%
+
+**Precision**: 89.33%
+
+**Recall**: 93.00%
+
+**F1-Score**: 91.13%
+
+These metrics indicate the performance of the classification model in identifying COVID-19 infection based on CT scan images. The accuracy represents the overall correctness of the predictions, while precision measures the proportion of true positive predictions out of all positive predictions. Recall measures the proportion of true positive predictions out of all actual positive samples. The F1-Score is a balanced measure of precision and recall.
+
+The high accuracy, precision, recall, and F1-Score obtained from the evaluation indicate that the CT scan image classification model performs well in identifying patients infected by SARS-CoV-2 using CT scan images.
+
 
 # Contributing
 Contributions to the project are welcome. If you have any suggestions, improvements, or bug fixes, please submit a pull request or open an issue.
