@@ -35,8 +35,6 @@ The repository contains the following files:
 
 **CT Scan Image Classification.ipynb**: Jupyter Notebook containing the code for CT scan image classification.
 
-**data**: Directory to be populated with the downloaded CT scan dataset.
-
 **README.md**: This readme file.
 
 # Getting Started
